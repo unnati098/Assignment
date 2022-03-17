@@ -119,7 +119,7 @@ public class LoginTest {
     public void Logout() {
     	driver.findElement(By.xpath("//a[@href=\"/openmrs/appui/header/logout.action?successUrl=openmrs\"]")).click();
     	 try {
-				Thread.sleep(2000);
+				Thread.sleep(5000);
 				} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
